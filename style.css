@@ -1,64 +1,64 @@
 body {
-    margin: 0; /* Hapus jarak default browser */
-    font-family: Arial; /* Set font utama halaman */
-    background-color: white; /* Warna latar halaman */
-    min-height: 100vh; /* Minimal tinggi halaman penuh layar, vh= persentase tinggi layar */ 
-    display: flex; /* Menggunakan flexbox untuk mengatur layout */
-    flex-direction: column; /* Susunan elemen utama secara vertikal */
+    margin: 0;
+    font-family: Arial;
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
-    background-color: black; /* Warna latar header */
-    color: white; /* Warna teks header */
-    padding: 20px 40px; /* Jarak dalam atas-bawah 20px, kiri-kanan 40px */
-    display: flex; /* Flexbox untuk isi header */
-    justify-content: space-between; /* Rata kiri-kanan untuk elemen header */
-    align-items: center; /* Vertikal center semua elemen di header */
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
-    margin: 0; /* Hapus jarak default h1 */
+    margin: 0;
 }
 
 header a {
-    color: white; /* Warna link di header */
-    margin: 0 15px; /* Jarak horizontal antar link */
-    text-decoration: none; /* Hilangkan garis bawah link */
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
 }
 
 main {
-    flex: 1; /* Memperluas main agar menempati sisa halaman */
-    padding: 60px 40px; /* Jarak dalam main: atas-bawah 60px, kiri-kanan 40px */
-    max-width: 1100px; /* Lebar maksimal main */
-    margin: 0 auto; /* Center main secara horizontal */
-    display: flex; /* Flexbox untuk layout konten main */
-    gap: 40px; /* Jarak antar elemen di main */
-    align-items: center; /* Vertikal center elemen main */
+    flex: 1;
+    padding: 60px 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    align-items: center;
 }
 
 main div {
-    flex: 1; /* Membuat div di main menyesuaikan lebar tersedia */
+    flex: 1;
 }
 
 main h2 {
-    color: black; /* Warna judul h2 */
-    font-size: 30px; /* Ukuran font h2 */
+    color: black;
+    font-size: 30px;
 }
 
 main p {
-    color: grey; /* Warna teks paragraf */
-    line-height: 1.8; /* Jarak antar baris paragraf */
+    color: grey;
+    line-height: 1.8;
 }
 
 main img {
-    width: 450px; /* Lebar gambar */
-    border-radius: 10px; /* Membulatkan sudut gambar */
+    width: 450px;
+    border-radius: 10px;
 }
 
 footer {
-    background-color: black; /* Warna latar footer */
-    color: white; /* Warna teks footer */
-    text-align: center; /* Rata tengah teks footer */
-    padding: 10px 5px; /* Jarak dalam footer */
-    margin-top: auto; /* Push footer ke bawah jika main lebih pendek */
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 5px;
+    margin-top: auto;
 }
