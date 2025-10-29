@@ -1,64 +1,74 @@
+/* Mengatur tampilan dasar seluruh halaman */
 body {
-    margin: 0;
-    font-family: Arial;
-    background-color: white;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    margin: 0; /* Menghapus jarak default di tepi halaman */
+    font-family: Arial; /* Mengatur jenis huruf utama menjadi Arial */
+    background-color: white; /* Warna latar belakang halaman berwarna putih */
+    min-height: 100vh; /* Tinggi minimum halaman setinggi layar */
+    display: flex; /* Menggunakan flexbox agar elemen diatur fleksibel */
+    flex-direction: column; /* Menyusun elemen secara vertikal (atas ke bawah) */
 }
 
+/* Bagian header di atas halaman */
 header {
-    background-color: black;
-    color: white;
-    padding: 20px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: black; /* Warna latar belakang hitam */
+    color: white; /* Warna teks putih */
+    padding: 20px 40px; /* Memberi jarak dalam header (atas-bawah 20px, kanan-kiri 40px) */
+    display: flex; /* Mengatur isi header secara fleksibel */
+    justify-content: space-between; /* Membuat judul di kiri dan menu di kanan */
+    align-items: center; /* Menyelaraskan elemen secara vertikal di tengah */
 }
 
+/* Menghapus margin bawaan dari h1 agar posisinya pas */
 header h1 {
     margin: 0;
 }
 
+/* Mengatur tampilan link di dalam header (menu navigasi) */
 header a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
+    color: white; /* Warna teks link jadi putih */
+    margin: 0 15px; /* Jarak antar link kanan-kiri 15px */
+    text-decoration: none; /* Menghapus garis bawah pada link */
 }
 
+/* Mengatur bagian utama halaman (konten tengah) */
 main {
-    flex: 1;
-    padding: 60px 40px;
-    max-width: 1100px;
-    margin: 0 auto;
-    display: flex;
-    gap: 40px;
-    align-items: center;
+    flex: 1; /* Membuat bagian main mengisi ruang kosong di antara header dan footer */
+    padding: 60px 40px; /* Memberi jarak dalam area main */
+    max-width: 1100px; /* Membatasi lebar maksimum konten agar tidak terlalu lebar */
+    margin: 0 auto; /* Menengahkan konten secara horizontal */
+    display: flex; /* Menjadikan isi di dalam main sejajar (teks dan gambar berdampingan) */
+    gap: 40px; /* Jarak antara teks dan gambar */
+    align-items: center; /* Menyelaraskan elemen di tengah secara vertikal */
 }
 
+/* Mengatur elemen div di dalam main agar fleksibel */
 main div {
-    flex: 1;
+    flex: 1; /* Membuat teks menyesuaikan lebar dengan gambar */
 }
 
+/* Judul bagian utama */
 main h2 {
-    color: black;
-    font-size: 30px;
+    color: black; /* Warna teks hitam */
+    font-size: 30px; /* Ukuran font agak besar */
 }
 
+/* Paragraf di dalam main */
 main p {
-    color: grey;
-    line-height: 1.8;
+    color: grey; /* Warna teks abu-abu */
+    line-height: 1.8; /* Memberi jarak antar baris */
 }
 
+/* Gambar di bagian main */
 main img {
-    width: 450px;
-    border-radius: 10px;
+    width: 450px; /* Lebar gambar 450 piksel */
+    border-radius: 10px; /* Membuat sudut gambar melengkung */
 }
 
+/* Bagian footer di bawah halaman */
 footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 10px 5px;
-    margin-top: auto;
+    background-color: black; /* Warna latar belakang hitam */
+    color: white; /* Warna teks putih */
+    text-align: center; /* Menyelaraskan teks ke tengah */
+    padding: 10px 5px; /* Memberi jarak dalam footer */
+    margin-top: auto; /* Membuat footer tetap di bawah meskipun halaman sedikit kontennya */
 }
