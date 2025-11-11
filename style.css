@@ -10,7 +10,7 @@ body {
 
 /* Bagian header di atas halaman */
 header {
-    background-color: black; /* Warna latar belakang hitam */
+    background-color: steelblue; /* Warna latar belakang hitam */
     color: white; /* Warna teks putih */
     padding: 20px 40px; /* Memberi jarak dalam header (atas-bawah 20px, kanan-kiri 40px) */
     display: flex; /* Mengatur isi header secara fleksibel */
@@ -48,13 +48,13 @@ main div {
 
 /* Judul bagian utama */
 main h2 {
-    color: black; /* Warna teks hitam */
+    color: steelblue; /* Warna teks hitam */
     font-size: 30px; /* Ukuran font agak besar */
 }
 
 /* Paragraf di dalam main */
 main p {
-    color: grey; /* Warna teks abu-abu */
+    color: black; /* Warna teks abu-abu */
     line-height: 1.8; /* Memberi jarak antar baris */
 }
 
@@ -66,7 +66,7 @@ main img {
 
 /* Bagian footer di bawah halaman */
 footer {
-    background-color: black; /* Warna latar belakang hitam */
+    background-color: steelblue; /* Warna latar belakang hitam */
     color: white; /* Warna teks putih */
     text-align: center; /* Menyelaraskan teks ke tengah */
     padding: 10px 5px; /* Memberi jarak dalam footer */
