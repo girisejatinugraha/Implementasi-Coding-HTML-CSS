@@ -72,3 +72,20 @@ footer {
     padding: 10px 5px; /* Memberi jarak dalam footer */
     margin-top: auto; /* Membuat footer tetap di bawah meskipun halaman sedikit kontennya */
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+    header, main, footer {
+        padding: 20px;
+        text-align: center;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    main img {
+        width: 100%;
+        max-width: 300px;
+    }
+}
